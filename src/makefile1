@@ -1,0 +1,3 @@
+test:max.c sum.c
+	gcc -o max1 max.c -I ../include ../lib/lmax.a
+	gcc -o sum1 sum.c -I ../include ../lib/lsum.a
